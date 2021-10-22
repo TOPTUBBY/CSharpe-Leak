@@ -8,10 +8,10 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("Leak")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Leak")]
-[assembly: AssemblyCopyright("Copyright ©  2021")]
-[assembly: AssemblyTrademark("")]
+[assembly: AssemblyCompany("Delta Electronics (Thailand) Public Co.,Ltd.")]
+[assembly: AssemblyProduct("Leakage Logging")]
+[assembly: AssemblyCopyright("Delta Electronics (Thailand) Public Co.,Ltd. Copyright ©  2021")]
+[assembly: AssemblyTrademark("Delta Electronics (Thailand) Public Co.,Ltd.")]
 [assembly: AssemblyCulture("")]
 
 // Setting ComVisible to false makes the types in this assembly not visible

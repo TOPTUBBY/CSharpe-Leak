@@ -1,7 +1,15 @@
 ﻿<?xml version='1.0' encoding='utf-8'?>
-<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)">
-  <Profiles>
-    <Profile Name="(Default)" />
-  </Profiles>
-  <Settings />
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Leak.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="csmoCalDate" Type="System.String" Scope="User">
+      <Value Profile="(Default)">21/07/2021</Value>
+    </Setting>
+    <Setting Name="csmoDueDate" Type="System.String" Scope="User">
+      <Value Profile="(Default)">21/07/2022</Value>
+    </Setting>
+    <Setting Name="defaultText" Type="System.String" Scope="User">
+      <Value Profile="(Default)">-</Value>
+    </Setting>
+  </Settings>
 </SettingsFile>

@@ -46,7 +46,7 @@
     
     mimetype: application/x-microsoft.net.object.binary.base64
     value   : The object must be serialized with 
-            : System.Serialization.Formatters.Binary.BinaryFormatter
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
             : and then encoded with base64 encoding.
     
     mimetype: application/x-microsoft.net.object.soap.base64
@@ -60,6 +60,7 @@
             : and then encoded with base64 encoding.
     -->
   <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
     <xsd:element name="root" msdata:IsDataSet="true">
       <xsd:complexType>
         <xsd:choice maxOccurs="unbounded">
@@ -68,9 +69,10 @@
               <xsd:sequence>
                 <xsd:element name="value" type="xsd:string" minOccurs="0" />
               </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="name" use="required" type="xsd:string" />
               <xsd:attribute name="type" type="xsd:string" />
               <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="assembly">
@@ -85,9 +87,10 @@
                 <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
                 <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
               </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
               <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
               <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="resheader">
@@ -109,9 +112,259 @@
     <value>2.0</value>
   </resheader>
   <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="CH15" xml:space="preserve">
+    <value>CH#15  REF.PL73/1P</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="gui_normalv2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gui_normalv2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Code0200" xml:space="preserve">
+    <value>Error: 2 PS Output Out of Range</value>
+  </data>
+  <data name="Result2" xml:space="preserve">
+    <value>PASS</value>
+  </data>
+  <data name="icons8_screenshot_48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8_screenshot_48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CH09" xml:space="preserve">
+    <value>CH#09  GEN2_ELEC</value>
+  </data>
+  <data name="CH06" xml:space="preserve">
+    <value>CH#06  5DH_ELEC</value>
+  </data>
+  <data name="CH03" xml:space="preserve">
+    <value>CH#03  ELECTRONIC:7.4KW</value>
+  </data>
+  <data name="pe1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pe1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CH02" xml:space="preserve">
+    <value>CH#02  COOLANT AREA:3000W</value>
+  </data>
+  <data name="Result9" xml:space="preserve">
+    <value>LL2 FAIL</value>
+  </data>
+  <data name="CH21" xml:space="preserve">
+    <value>CH#21  PL57/65_DES2</value>
+  </data>
+  <data name="CH11" xml:space="preserve">
+    <value>CH#11  GEN2_COOL_H74</value>
+  </data>
+  <data name="CH24" xml:space="preserve">
+    <value>CH#24  PV2017 PL57/65</value>
+  </data>
+  <data name="CH16" xml:space="preserve">
+    <value>CH#16  PL73-1P_K_11</value>
+  </data>
+  <data name="CH27" xml:space="preserve">
+    <value>CH#27  PV2017 PL73-1P NON</value>
+  </data>
+  <data name="Code0000" xml:space="preserve">
+    <value>PASS</value>
+  </data>
+  <data name="CH18" xml:space="preserve">
+    <value>CH#18  PL73-1P_DES</value>
+  </data>
+  <data name="CH30" xml:space="preserve">
+    <value>CH#30  GEN4_3.7KW_ELEC</value>
+  </data>
+  <data name="CH01" xml:space="preserve">
+    <value>CH#01  ELECTRONIC:3000W</value>
+  </data>
+  <data name="CH20" xml:space="preserve">
+    <value>CH#20  PL73-1P_DES2</value>
+  </data>
+  <data name="icons8_shutdown_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8_shutdown_32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CH10" xml:space="preserve">
+    <value>CH#10  GEN2_COOL</value>
+  </data>
+  <data name="icons8_full_stop_48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8_full_stop_48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8_internet_of_things_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8_internet_of_things_32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mode02" xml:space="preserve">
+    <value>K(Ve) check</value>
+  </data>
+  <data name="Code0020" xml:space="preserve">
+    <value>Error: 1 PS Offset Error</value>
+  </data>
+  <data name="icons8_delete_48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8_delete_48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CH07" xml:space="preserve">
+    <value>CH#07  PAG_PV</value>
+  </data>
+  <data name="ResultC" xml:space="preserve">
+    <value>UL2 FAIL</value>
+  </data>
+  <data name="Mode00" xml:space="preserve">
+    <value>Leak test</value>
+  </data>
+  <data name="CH04" xml:space="preserve">
+    <value>CH#04  COOLANT AREA:7.4KW</value>
+  </data>
+  <data name="Unitag_QRCode_1633567236824" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qr\outlook\Unitag_QRCode_1633567236824.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8_question_mark_48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8_question_mark_48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gui_passv2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gui_passv2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CH12" xml:space="preserve">
+    <value>CH#12 BMW CCU-L</value>
+  </data>
+  <data name="CH23" xml:space="preserve">
+    <value>CH#23  NEW.PL73-1P</value>
+  </data>
+  <data name="CH17" xml:space="preserve">
+    <value>CH#17  PL57/95_K_11</value>
+  </data>
+  <data name="CH26" xml:space="preserve">
+    <value>CH#26  PV2017 PL57/65 NON</value>
+  </data>
+  <data name="CH14" xml:space="preserve">
+    <value>CH#14  REF.PL57/65</value>
+  </data>
+  <data name="CH29" xml:space="preserve">
+    <value>CH#29  GEN4_11KW_COOLING</value>
+  </data>
+  <data name="CH19" xml:space="preserve">
+    <value>CH#19  PL57/65_DES</value>
+  </data>
+  <data name="icons8_close_window_dark_64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8_close_window_dark_64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Unitag_QRCode_1633566970790" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qr\line\Unitag_QRCode_1633566970790.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CH00" xml:space="preserve">
+    <value>CH#00  ----------</value>
+  </data>
+  <data name="icons8_conflict_48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8_conflict_48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Result4" xml:space="preserve">
+    <value>UL FAIL</value>
+  </data>
+  <data name="icons8_close_window_64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8_close_window_64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ResultD" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="Code0800" xml:space="preserve">
+    <value>K(Ve) Check NG</value>
+  </data>
+  <data name="Unitag_QRCode_1633567566589" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qr\user\Unitag_QRCode_1633567566589.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Code0080" xml:space="preserve">
+    <value>Error: 3 Test Pressure Error</value>
+  </data>
+  <data name="icons8_conflict_64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8_conflict_64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8_about_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8_about_32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8_disconnected_48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8_disconnected_48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gui_fail" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gui_fail.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mode01" xml:space="preserve">
+    <value>Mastering</value>
+  </data>
+  <data name="icons8_project_management_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8_project_management_32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CH05" xml:space="preserve">
+    <value>CH#05  5DH_COOL</value>
+  </data>
+  <data name="icons8_project_management_48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8_project_management_48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="delta" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\delta.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8_connected_48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8_connected_48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gui_failv2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gui_failv2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CH22" xml:space="preserve">
+    <value>CH#22  NEW.PL57/65</value>
+  </data>
+  <data name="Mode03" xml:space="preserve">
+    <value>NR</value>
+  </data>
+  <data name="Result1" xml:space="preserve">
+    <value>LL FAIL</value>
+  </data>
+  <data name="icons8_tick_box_64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8_tick_box_64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CH08" xml:space="preserve">
+    <value>CH#08  AUDI_PV</value>
+  </data>
+  <data name="CH31" xml:space="preserve">
+    <value>CH#31  GEN4_3.7KW_COOLING</value>
+  </data>
+  <data name="icons8_shutdown_48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8_shutdown_48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8_checkmark_48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8_checkmark_48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8_tick_box_dark_64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8_tick_box_dark_64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Code0400" xml:space="preserve">
+    <value>Error: 24 K(Ve) Value Out of Range</value>
+  </data>
+  <data name="icons8_timetable_64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8_timetable_64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CH13" xml:space="preserve">
+    <value>CH#13  PV57-65</value>
+  </data>
+  <data name="gui_normal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gui_normal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Code4000" xml:space="preserve">
+    <value>Error: 11 to 16 Air Operated Value Error</value>
+  </data>
+  <data name="CH25" xml:space="preserve">
+    <value>CH#25  PV2017 PL73-1P PAG</value>
+  </data>
+  <data name="icons8_open_folder_in_new_tab_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8_open_folder_in_new_tab_32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CH28" xml:space="preserve">
+    <value>CH#28  GEN4_11KW_ELEC</value>
+  </data>
+  <data name="gui_pass" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gui_pass.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Code0100" xml:space="preserve">
+    <value>Large Leak</value>
+  </data>
+  <data name="leak" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\leak.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
 </root>
