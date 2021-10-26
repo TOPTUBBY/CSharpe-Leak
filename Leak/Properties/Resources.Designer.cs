@@ -178,7 +178,7 @@ namespace Leak.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to CH#13  PV57-65.
+        ///   Looks up a localized string similar to CH#13  BMW CCU-S.
         /// </summary>
         internal static string CH13 {
             get {

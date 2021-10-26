@@ -15,6 +15,8 @@ using System.IO.Ports;
 using System.Runtime.InteropServices;
 using System.Text;
 using System.Windows.Forms;
+using System.Threading.Tasks;
+using System.Threading;
 
 namespace Leak
 {
@@ -139,6 +141,7 @@ namespace Leak
                     gbCsmo.Enabled = false;
                     gbTestInfo.Enabled = false;
                     tsbStart.Text = "Start";
+                    tsbStart.Image = new Bitmap(Leak.Properties.Resources.icons8_conflict_48);
                     tsslblErrorCode.Text = "Device not connected";
                 }
             }
@@ -431,6 +434,7 @@ namespace Leak
 
                 }
                 MessageBox.Show("Capture", "LEAKAGE LOGGING", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                Thread.Sleep(1000);
                 capture();
 
                 try
@@ -460,6 +464,8 @@ namespace Leak
                 {
                     MessageBox.Show(e.Message);
                 }
+
+                MessageBox.Show("Report has been created.", "LEAKAGE LOGGING", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
         }
 

@@ -155,13 +155,13 @@ namespace Leak
             this.tbLeak.Cursor = System.Windows.Forms.Cursors.Default;
             this.tbLeak.Font = new System.Drawing.Font("DS-Digital", 90F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tbLeak.ForeColor = System.Drawing.Color.LightGray;
-            this.tbLeak.Location = new System.Drawing.Point(191, 93);
+            this.tbLeak.Location = new System.Drawing.Point(148, 93);
             this.tbLeak.Name = "tbLeak";
             this.tbLeak.ReadOnly = true;
-            this.tbLeak.Size = new System.Drawing.Size(396, 120);
+            this.tbLeak.Size = new System.Drawing.Size(431, 120);
             this.tbLeak.TabIndex = 0;
             this.tbLeak.TabStop = false;
-            this.tbLeak.Text = "0.000";
+            this.tbLeak.Text = "+0.000";
             this.tbLeak.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // tbDETUL
