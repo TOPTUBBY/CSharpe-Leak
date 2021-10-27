@@ -3,7 +3,7 @@
 //FileType: Visual C# Source file
 //Author : TOPTUBBY (AnonymouS)
 //Created On : 7/10/2021 12:00:00 PM
-//Last Modified On : 22/10/2021 18:09:00 PM
+//Last Modified On : 27/10/2021 14:53:00 PM
 //Copy Rights : Delta Electronics Thailand PCL.
 //Description : Class for defining database related functions
 ////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -14,15 +14,14 @@ using System.IO;
 using System.IO.Ports;
 using System.Runtime.InteropServices;
 using System.Text;
-using System.Windows.Forms;
-using System.Threading.Tasks;
 using System.Threading;
+using System.Windows.Forms;
 
 namespace Leak
 {
     public partial class leak : Form
     {
-        IniFile ini = new IniFile(@"D:\\config.ini");
+        IniFile ini = new IniFile(@"C:\Program Files (x86)\Delta Electronics (Thailand) Public Co.,Ltd\LEAKLOG\database\config.ini");
         internal delegate void SerialDataReceivedEventHandlerDelegate(object sender, SerialDataReceivedEventArgs e);
         delegate void SetTextCallback(string text);
         string InputData = string.Empty;
@@ -91,7 +90,7 @@ namespace Leak
 
         private void configPort_Click(object sender, EventArgs e)
         {
-            System.Diagnostics.Process.Start(@"D:\config.ini");
+            System.Diagnostics.Process.Start(@"C:\Program Files (x86)\Delta Electronics (Thailand) Public Co.,Ltd\LEAKLOG\database\config.ini");
         }
 
         private void configFormat_Click(object sender, EventArgs e)
