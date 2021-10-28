@@ -36,6 +36,7 @@ namespace Leak
             this.mtbDueDate = new System.Windows.Forms.MaskedTextBox();
             this.mtbCalDate = new System.Windows.Forms.MaskedTextBox();
             this.lblDue = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.gbCalDC.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -46,7 +47,7 @@ namespace Leak
             this.btnOK.Location = new System.Drawing.Point(93, 96);
             this.btnOK.Name = "btnOK";
             this.btnOK.Size = new System.Drawing.Size(190, 27);
-            this.btnOK.TabIndex = 0;
+            this.btnOK.TabIndex = 3;
             this.btnOK.Text = "OK";
             this.btnOK.UseVisualStyleBackColor = true;
             this.btnOK.Click += new System.EventHandler(this.btnOK_Click);
@@ -58,7 +59,7 @@ namespace Leak
             this.lblDate.Location = new System.Drawing.Point(92, 28);
             this.lblDate.Name = "lblDate";
             this.lblDate.Size = new System.Drawing.Size(87, 20);
-            this.lblDate.TabIndex = 2;
+            this.lblDate.TabIndex = 0;
             this.lblDate.Text = "Cal. Date : ";
             // 
             // gbCalDC
@@ -67,6 +68,7 @@ namespace Leak
             this.gbCalDC.Controls.Add(this.mtbDueDate);
             this.gbCalDC.Controls.Add(this.mtbCalDate);
             this.gbCalDC.Controls.Add(this.lblDue);
+            this.gbCalDC.Controls.Add(this.label1);
             this.gbCalDC.Controls.Add(this.lblDate);
             this.gbCalDC.Controls.Add(this.btnOK);
             this.gbCalDC.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
@@ -95,7 +97,7 @@ namespace Leak
             this.mtbDueDate.Mask = "00/00/0000";
             this.mtbDueDate.Name = "mtbDueDate";
             this.mtbDueDate.Size = new System.Drawing.Size(100, 26);
-            this.mtbDueDate.TabIndex = 3;
+            this.mtbDueDate.TabIndex = 2;
             this.mtbDueDate.Text = "01012021";
             this.mtbDueDate.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.mtbDueDate.ValidatingType = typeof(System.DateTime);
@@ -106,7 +108,7 @@ namespace Leak
             this.mtbCalDate.Mask = "00/00/0000";
             this.mtbCalDate.Name = "mtbCalDate";
             this.mtbCalDate.Size = new System.Drawing.Size(100, 26);
-            this.mtbCalDate.TabIndex = 3;
+            this.mtbCalDate.TabIndex = 1;
             this.mtbCalDate.Text = "01012021";
             this.mtbCalDate.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.mtbCalDate.ValidatingType = typeof(System.DateTime);
@@ -118,10 +120,20 @@ namespace Leak
             this.lblDue.Location = new System.Drawing.Point(89, 62);
             this.lblDue.Name = "lblDue";
             this.lblDue.Size = new System.Drawing.Size(90, 20);
-            this.lblDue.TabIndex = 2;
+            this.lblDue.TabIndex = 0;
             this.lblDue.Text = "Due Date : ";
             // 
-            // calDC
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.label1.Location = new System.Drawing.Point(193, 11);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(79, 13);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "MM / dd / yyyy";
+            // 
+            // calCsmo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -129,7 +141,7 @@ namespace Leak
             this.ClientSize = new System.Drawing.Size(315, 148);
             this.ControlBox = false;
             this.Controls.Add(this.gbCalDC);
-            this.Name = "calDC";
+            this.Name = "calCsmo";
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "DC-Source Calibration info";
@@ -149,5 +161,6 @@ namespace Leak
         public System.Windows.Forms.PictureBox pictureBox1;
         public System.Windows.Forms.MaskedTextBox mtbDueDate;
         public System.Windows.Forms.MaskedTextBox mtbCalDate;
+        private System.Windows.Forms.Label label1;
     }
 }

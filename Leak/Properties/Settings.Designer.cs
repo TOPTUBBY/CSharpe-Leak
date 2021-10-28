@@ -25,7 +25,7 @@ namespace Leak.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("21/07/2021")]
+        [global::System.Configuration.DefaultSettingValueAttribute("02/05/2021")]
         public string csmoCalDate {
             get {
                 return ((string)(this["csmoCalDate"]));
@@ -37,7 +37,7 @@ namespace Leak.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("21/07/2022")]
+        [global::System.Configuration.DefaultSettingValueAttribute("02/04/2022")]
         public string csmoDueDate {
             get {
                 return ((string)(this["csmoDueDate"]));

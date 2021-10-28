@@ -757,6 +757,7 @@ namespace Leak
             // tbTestStep
             // 
             this.tbTestStep.AutoCompleteCustomSource.AddRange(new string[] {
+            "Pre-test",
             "Initial",
             "Before",
             "After",
@@ -829,7 +830,9 @@ namespace Leak
             this.cbbProject.Items.AddRange(new object[] {
             "BMW_7.4kW",
             "BMW_22kW",
+            "OBC_9.6kW",
             "OBC_11kW",
+            "NIS_7.4kW",
             "REN_5DH"});
             this.cbbProject.Location = new System.Drawing.Point(139, 33);
             this.cbbProject.Name = "cbbProject";

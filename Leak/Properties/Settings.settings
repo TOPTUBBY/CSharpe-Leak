@@ -3,10 +3,10 @@
   <Profiles />
   <Settings>
     <Setting Name="csmoCalDate" Type="System.String" Scope="User">
-      <Value Profile="(Default)">21/07/2021</Value>
+      <Value Profile="(Default)">02/05/2021</Value>
     </Setting>
     <Setting Name="csmoDueDate" Type="System.String" Scope="User">
-      <Value Profile="(Default)">21/07/2022</Value>
+      <Value Profile="(Default)">02/04/2022</Value>
     </Setting>
     <Setting Name="defaultText" Type="System.String" Scope="User">
       <Value Profile="(Default)">-</Value>

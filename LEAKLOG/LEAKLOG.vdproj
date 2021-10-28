@@ -15,7 +15,7 @@
     {
         "Entry"
         {
-        "MsmKey" = "8:_058FEA951FD543E2AE7D3EEE45D7E38C"
+        "MsmKey" = "8:_014B2E02DB84477192325FD2048FDF0F"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -27,19 +27,31 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_0F12BE0C963A47B1B4D47BE721F7C4A5"
+        "MsmKey" = "8:_22F1DC94D8F34472904349D348E7E60F"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_0FDFDB4056BA46E2BF1598F5BC8C2066"
+        "MsmKey" = "8:_270E0582701441B6BE15D0132B23E2A9"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_28853EE8A2AA48E2B4D2F946128CC739"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_33FE273A86FF49F1B5BF3B5815489520"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_51E73A58727A4DE281BCB719295FA03B"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -63,19 +75,19 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_9628E68E4B4C4C10AF1516DB2EB3B9BB"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_9A6B95731BC644E895FBC5676B1A847E"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_9ACE464937814C77B356397A85A2F19E"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_BE29ACF2F84E4E9D9330B7B553A6E048"
+        "MsmKey" = "8:_B1F90F5BB8F54981BEBEC2D8EFF88BD3"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -109,6 +121,14 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+            }
         }
         "Release"
         {
@@ -125,6 +145,14 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+            }
         }
     }
     "Deployable"
@@ -154,10 +182,10 @@
         }
         "File"
         {
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_058FEA951FD543E2AE7D3EEE45D7E38C"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_014B2E02DB84477192325FD2048FDF0F"
             {
-            "SourcePath" = "8:..\\Leak\\ext_Resources\\REN_5DH.xlsx"
-            "TargetName" = "8:REN_5DH.xlsx"
+            "SourcePath" = "8:..\\Leak\\ext_Resources\\NIS_7.4kW.xlsx"
+            "TargetName" = "8:NIS_7.4kW.xlsx"
             "Tag" = "8:"
             "Folder" = "8:_CC2D6BA6877A42C8814A5218C97394DC"
             "Condition" = "8:"
@@ -194,10 +222,10 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_0F12BE0C963A47B1B4D47BE721F7C4A5"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_22F1DC94D8F34472904349D348E7E60F"
             {
-            "SourcePath" = "8:..\\Leak\\ext_Resources\\OBC_11kW.xlsx"
-            "TargetName" = "8:OBC_11kW.xlsx"
+            "SourcePath" = "8:..\\Leak\\ext_Resources\\BMW_7.4kW.xlsx"
+            "TargetName" = "8:BMW_7.4kW.xlsx"
             "Tag" = "8:"
             "Folder" = "8:_CC2D6BA6877A42C8814A5218C97394DC"
             "Condition" = "8:"
@@ -214,10 +242,50 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_0FDFDB4056BA46E2BF1598F5BC8C2066"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_270E0582701441B6BE15D0132B23E2A9"
             {
-            "SourcePath" = "8:..\\Leak\\ext_Resources\\BMW_22kW.xlsx"
-            "TargetName" = "8:BMW_22kW.xlsx"
+            "SourcePath" = "8:..\\Leak\\ext_Resources\\config.ini"
+            "TargetName" = "8:config.ini"
+            "Tag" = "8:"
+            "Folder" = "8:_24663B669AE74C50A747A1EB3F68CE75"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_28853EE8A2AA48E2B4D2F946128CC739"
+            {
+            "SourcePath" = "8:..\\Leak\\ext_Resources\\OBC_9.6kW.xlsx"
+            "TargetName" = "8:OBC_9.6kW.xlsx"
+            "Tag" = "8:"
+            "Folder" = "8:_CC2D6BA6877A42C8814A5218C97394DC"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_51E73A58727A4DE281BCB719295FA03B"
+            {
+            "SourcePath" = "8:..\\Leak\\ext_Resources\\OBC_11kW.xlsx"
+            "TargetName" = "8:OBC_11kW.xlsx"
             "Tag" = "8:"
             "Folder" = "8:_CC2D6BA6877A42C8814A5218C97394DC"
             "Condition" = "8:"
@@ -294,6 +362,26 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_9628E68E4B4C4C10AF1516DB2EB3B9BB"
+            {
+            "SourcePath" = "8:..\\Leak\\ext_Resources\\BMW_22kW.xlsx"
+            "TargetName" = "8:BMW_22kW.xlsx"
+            "Tag" = "8:"
+            "Folder" = "8:_CC2D6BA6877A42C8814A5218C97394DC"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_9A6B95731BC644E895FBC5676B1A847E"
             {
             "SourcePath" = "8:..\\Leak\\ext_Resources\\ds_digital\\DIGITAL.TXT"
@@ -314,30 +402,10 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_9ACE464937814C77B356397A85A2F19E"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_B1F90F5BB8F54981BEBEC2D8EFF88BD3"
             {
-            "SourcePath" = "8:..\\Leak\\ext_Resources\\config.ini"
-            "TargetName" = "8:config.ini"
-            "Tag" = "8:"
-            "Folder" = "8:_24663B669AE74C50A747A1EB3F68CE75"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_BE29ACF2F84E4E9D9330B7B553A6E048"
-            {
-            "SourcePath" = "8:..\\Leak\\ext_Resources\\BMW_7.4kW.xlsx"
-            "TargetName" = "8:BMW_7.4kW.xlsx"
+            "SourcePath" = "8:..\\Leak\\ext_Resources\\REN_5DH.xlsx"
+            "TargetName" = "8:REN_5DH.xlsx"
             "Tag" = "8:"
             "Folder" = "8:_CC2D6BA6877A42C8814A5218C97394DC"
             "Condition" = "8:"
@@ -474,19 +542,19 @@
         {
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:LEAKLOG"
-        "ProductCode" = "8:{2A70B1A7-11B2-4868-BA62-08AD8E4802D8}"
-        "PackageCode" = "8:{32229075-D9A5-4D45-9A6F-9A7BD76AA288}"
+        "ProductCode" = "8:{3B4EE7A6-8982-4CF1-9CBD-0FDAE9372EAC}"
+        "PackageCode" = "8:{DF72374A-0B93-4B5A-AB6F-1DC62FB98100}"
         "UpgradeCode" = "8:{9D5794B7-C01A-4715-8F02-5A2B59D848D9}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:TRUE"
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:FALSE"
-        "ProductVersion" = "8:1.2.1"
+        "ProductVersion" = "8:1.3.6"
         "Manufacturer" = "8:Delta Electronics (Thailand) Public Co.,Ltd"
         "ARPHELPTELEPHONE" = "8:ext.6787"
         "ARPHELPLINK" = "8:"
-        "Title" = "8:LEAKLOG 1.2.1"
+        "Title" = "8:LEAKLOG 1.3.6"
         "Subject" = "8:Automotive Software DET5"
         "ARPCONTACT" = "8:Patiphan Phakdeeburi"
         "Keywords" = "8:Leak"

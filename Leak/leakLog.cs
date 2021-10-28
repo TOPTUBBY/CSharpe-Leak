@@ -3,7 +3,7 @@
 //FileType: Visual C# Source file
 //Author : TOPTUBBY (AnonymouS)
 //Created On : 7/10/2021 12:00:00 PM
-//Last Modified On : 27/10/2021 14:53:00 PM
+//Last Modified On : 28/10/2021 09:05:00 PM
 //Copy Rights : Delta Electronics Thailand PCL.
 //Description : Class for defining database related functions
 ////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -455,7 +455,7 @@ namespace Leak
                     workSheet.Cells[13, 33].Value = Properties.Settings.Default.csmoDueDate;
                     workSheet.Cells[35, 8].Value = lblScrCH.Text;                               //Channel
                     workSheet.Cells[39, 2].Value = "'" + tbScrSN.Text;                          //SN
-                    workSheet.Shapes.AddPicture(@"D:\LEAK_DATA\" + picfileName + ".jpeg", Microsoft.Office.Core.MsoTriState.msoFalse, Microsoft.Office.Core.MsoTriState.msoCTrue, 180, 596, 155, 147);
+                    workSheet.Shapes.AddPicture(@"D:\LEAK_DATA\" + picfileName + ".jpeg", Microsoft.Office.Core.MsoTriState.msoFalse, Microsoft.Office.Core.MsoTriState.msoCTrue, 70, 596, 155, 147);
                     workBook.Close(true, Type.Missing, Type.Missing);
                     app.Quit();
                 }
