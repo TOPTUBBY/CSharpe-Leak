@@ -828,8 +828,9 @@ namespace Leak
             this.cbbProject.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
             this.cbbProject.FormattingEnabled = true;
             this.cbbProject.Items.AddRange(new object[] {
-            "BMW_7.4kW",
-            "BMW_22kW",
+            "7.4kW_CCU_L",
+            "7.4kW_CCU_S",
+            "22kW_CCU_L",
             "OBC_9.6kW",
             "OBC_11kW",
             "NIS_7.4kW",
