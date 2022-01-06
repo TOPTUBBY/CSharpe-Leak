@@ -3,7 +3,7 @@
 //FileType: Visual C# Source file
 //Author : TOPTUBBY (AnonymouS)
 //Created On : 7/10/2021 12:00:00 PM
-//Last Modified On : 28/10/2021 09:05:00 PM
+//Last Modified On : 6/01/2022 14:19:00 PM
 //Copy Rights : Delta Electronics Thailand PCL.
 //Description : Class for defining database related functions
 ////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -287,100 +287,100 @@ namespace Leak
                 switch (tbCH.Text)
                 {
                     case "00":
-                        lblScrCH.Text = Properties.Resources.CH00;
+                        lblScrCH.Text = Properties.Settings.Default.CH00;
                         break;
                     case "01":
-                        lblScrCH.Text = Properties.Resources.CH01;
+                        lblScrCH.Text = Properties.Settings.Default.CH00;
                         break;
                     case "02":
-                        lblScrCH.Text = Properties.Resources.CH02;
+                        lblScrCH.Text = Properties.Settings.Default.CH02;
                         break;
                     case "03":
-                        lblScrCH.Text = Properties.Resources.CH03;
+                        lblScrCH.Text = Properties.Settings.Default.CH03;
                         break;
                     case "04":
-                        lblScrCH.Text = Properties.Resources.CH04;
+                        lblScrCH.Text = Properties.Settings.Default.CH04;
                         break;
                     case "05":
-                        lblScrCH.Text = Properties.Resources.CH05;
+                        lblScrCH.Text = Properties.Settings.Default.CH05;
                         break;
                     case "06":
-                        lblScrCH.Text = Properties.Resources.CH06;
+                        lblScrCH.Text = Properties.Settings.Default.CH06;
                         break;
                     case "07":
-                        lblScrCH.Text = Properties.Resources.CH07;
+                        lblScrCH.Text = Properties.Settings.Default.CH07;
                         break;
                     case "08":
-                        lblScrCH.Text = Properties.Resources.CH08;
+                        lblScrCH.Text = Properties.Settings.Default.CH08;
                         break;
                     case "09":
-                        lblScrCH.Text = Properties.Resources.CH09;
+                        lblScrCH.Text = Properties.Settings.Default.CH09;
                         break;
                     case "10":
-                        lblScrCH.Text = Properties.Resources.CH10;
+                        lblScrCH.Text = Properties.Settings.Default.CH10;
                         break;
                     case "11":
-                        lblScrCH.Text = Properties.Resources.CH11;
+                        lblScrCH.Text = Properties.Settings.Default.CH11;
                         break;
                     case "12":
-                        lblScrCH.Text = Properties.Resources.CH12;
+                        lblScrCH.Text = Properties.Settings.Default.CH12;
                         break;
                     case "13":
-                        lblScrCH.Text = Properties.Resources.CH13;
+                        lblScrCH.Text = Properties.Settings.Default.CH13;
                         break;
                     case "14":
-                        lblScrCH.Text = Properties.Resources.CH14;
+                        lblScrCH.Text = Properties.Settings.Default.CH14;
                         break;
                     case "15":
-                        lblScrCH.Text = Properties.Resources.CH15;
+                        lblScrCH.Text = Properties.Settings.Default.CH15;
                         break;
                     case "16":
-                        lblScrCH.Text = Properties.Resources.CH16;
+                        lblScrCH.Text = Properties.Settings.Default.CH16;
                         break;
                     case "17":
-                        lblScrCH.Text = Properties.Resources.CH17;
+                        lblScrCH.Text = Properties.Settings.Default.CH17;
                         break;
                     case "18":
-                        lblScrCH.Text = Properties.Resources.CH18;
+                        lblScrCH.Text = Properties.Settings.Default.CH18;
                         break;
                     case "19":
-                        lblScrCH.Text = Properties.Resources.CH19;
+                        lblScrCH.Text = Properties.Settings.Default.CH19;
                         break;
                     case "20":
-                        lblScrCH.Text = Properties.Resources.CH20;
+                        lblScrCH.Text = Properties.Settings.Default.CH20;
                         break;
                     case "21":
-                        lblScrCH.Text = Properties.Resources.CH21;
+                        lblScrCH.Text = Properties.Settings.Default.CH21;
                         break;
                     case "22":
-                        lblScrCH.Text = Properties.Resources.CH22;
+                        lblScrCH.Text = Properties.Settings.Default.CH22;
                         break;
                     case "23":
-                        lblScrCH.Text = Properties.Resources.CH23;
+                        lblScrCH.Text = Properties.Settings.Default.CH23;
                         break;
                     case "24":
-                        lblScrCH.Text = Properties.Resources.CH24;
+                        lblScrCH.Text = Properties.Settings.Default.CH24;
                         break;
                     case "25":
-                        lblScrCH.Text = Properties.Resources.CH25;
+                        lblScrCH.Text = Properties.Settings.Default.CH25;
                         break;
                     case "26":
-                        lblScrCH.Text = Properties.Resources.CH26;
+                        lblScrCH.Text = Properties.Settings.Default.CH26;
                         break;
                     case "27":
-                        lblScrCH.Text = Properties.Resources.CH27;
+                        lblScrCH.Text = Properties.Settings.Default.CH27;
                         break;
                     case "28":
-                        lblScrCH.Text = Properties.Resources.CH28;
+                        lblScrCH.Text = Properties.Settings.Default.CH28;
                         break;
                     case "29":
-                        lblScrCH.Text = Properties.Resources.CH29;
+                        lblScrCH.Text = Properties.Settings.Default.CH29;
                         break;
                     case "30":
-                        lblScrCH.Text = Properties.Resources.CH30;
+                        lblScrCH.Text = Properties.Settings.Default.CH30;
                         break;
                     case "31":
-                        lblScrCH.Text = Properties.Resources.CH31;
+                        lblScrCH.Text = Properties.Settings.Default.CH31;
                         break;
                 }
                 tbK.Text = valueSplit[12];                      //K(Ve)

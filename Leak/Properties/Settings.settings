@@ -11,5 +11,101 @@
     <Setting Name="defaultText" Type="System.String" Scope="User">
       <Value Profile="(Default)">-</Value>
     </Setting>
+    <Setting Name="CH00" Type="System.String" Scope="User">
+      <Value Profile="(Default)">CH#00  7.4KW_CCU_L</Value>
+    </Setting>
+    <Setting Name="CH01" Type="System.String" Scope="User">
+      <Value Profile="(Default)">CH#01  ELECTRONIC:3000W</Value>
+    </Setting>
+    <Setting Name="CH02" Type="System.String" Scope="User">
+      <Value Profile="(Default)">CH#02  COOLANT AREA:3000W</Value>
+    </Setting>
+    <Setting Name="CH03" Type="System.String" Scope="User">
+      <Value Profile="(Default)">CH#03  ELECTRONIC:7.4KW</Value>
+    </Setting>
+    <Setting Name="CH04" Type="System.String" Scope="User">
+      <Value Profile="(Default)">CH#04  COOLANT AREA:7.4KW</Value>
+    </Setting>
+    <Setting Name="CH05" Type="System.String" Scope="User">
+      <Value Profile="(Default)">CH#05  5DH_COOL</Value>
+    </Setting>
+    <Setting Name="CH06" Type="System.String" Scope="User">
+      <Value Profile="(Default)">CH#06  5DH_ELEC</Value>
+    </Setting>
+    <Setting Name="CH07" Type="System.String" Scope="User">
+      <Value Profile="(Default)">CH#07  PAG_PV</Value>
+    </Setting>
+    <Setting Name="CH08" Type="System.String" Scope="User">
+      <Value Profile="(Default)">CH#08  AUDI_PV</Value>
+    </Setting>
+    <Setting Name="CH09" Type="System.String" Scope="User">
+      <Value Profile="(Default)">CH#09  GEN2_ELEC</Value>
+    </Setting>
+    <Setting Name="CH10" Type="System.String" Scope="User">
+      <Value Profile="(Default)">CH#10  GEN2_COOL</Value>
+    </Setting>
+    <Setting Name="CH11" Type="System.String" Scope="User">
+      <Value Profile="(Default)">CH#11  GEN2_COOL_H74</Value>
+    </Setting>
+    <Setting Name="CH12" Type="System.String" Scope="User">
+      <Value Profile="(Default)">CH#12 BMW CCU-L</Value>
+    </Setting>
+    <Setting Name="CH13" Type="System.String" Scope="User">
+      <Value Profile="(Default)">CH#13  BMW CCU-S</Value>
+    </Setting>
+    <Setting Name="CH14" Type="System.String" Scope="User">
+      <Value Profile="(Default)">CH#14  REF.PL57/65</Value>
+    </Setting>
+    <Setting Name="CH15" Type="System.String" Scope="User">
+      <Value Profile="(Default)">CH#15  REF.PL73/1P</Value>
+    </Setting>
+    <Setting Name="CH16" Type="System.String" Scope="User">
+      <Value Profile="(Default)">CH#16  PL73-1P_K_11</Value>
+    </Setting>
+    <Setting Name="CH17" Type="System.String" Scope="User">
+      <Value Profile="(Default)">CH#17  PL57/95_K_11</Value>
+    </Setting>
+    <Setting Name="CH18" Type="System.String" Scope="User">
+      <Value Profile="(Default)">CH#18  PL73-1P_DES</Value>
+    </Setting>
+    <Setting Name="CH19" Type="System.String" Scope="User">
+      <Value Profile="(Default)">CH#19  PL57/65_DES</Value>
+    </Setting>
+    <Setting Name="CH20" Type="System.String" Scope="User">
+      <Value Profile="(Default)">CH#20  PL73-1P_DES2</Value>
+    </Setting>
+    <Setting Name="CH21" Type="System.String" Scope="User">
+      <Value Profile="(Default)">CH#21  PL57/65_DES2</Value>
+    </Setting>
+    <Setting Name="CH22" Type="System.String" Scope="User">
+      <Value Profile="(Default)">CH#22  NEW.PL57/65</Value>
+    </Setting>
+    <Setting Name="CH23" Type="System.String" Scope="User">
+      <Value Profile="(Default)">CH#23  NEW.PL73-1P</Value>
+    </Setting>
+    <Setting Name="CH24" Type="System.String" Scope="User">
+      <Value Profile="(Default)">CH#24  PV2017 PL57/65</Value>
+    </Setting>
+    <Setting Name="CH25" Type="System.String" Scope="User">
+      <Value Profile="(Default)">CH#25  PV2017 PL73-1P PAG</Value>
+    </Setting>
+    <Setting Name="CH26" Type="System.String" Scope="User">
+      <Value Profile="(Default)">CH#26  PV2017 PL57/65 NON</Value>
+    </Setting>
+    <Setting Name="CH27" Type="System.String" Scope="User">
+      <Value Profile="(Default)">CH#27  PV2017 PL73-1P NON</Value>
+    </Setting>
+    <Setting Name="CH28" Type="System.String" Scope="User">
+      <Value Profile="(Default)">CH#28  GEN4_11KW_ELEC</Value>
+    </Setting>
+    <Setting Name="CH29" Type="System.String" Scope="User">
+      <Value Profile="(Default)">CH#29  GEN4_11KW_COOLING</Value>
+    </Setting>
+    <Setting Name="CH30" Type="System.String" Scope="User">
+      <Value Profile="(Default)">CH#30  GEN4_3.7KW_ELEC</Value>
+    </Setting>
+    <Setting Name="CH31" Type="System.String" Scope="User">
+      <Value Profile="(Default)">CH#31  GEN4_3.7KW_COOLING</Value>
+    </Setting>
   </Settings>
 </SettingsFile>

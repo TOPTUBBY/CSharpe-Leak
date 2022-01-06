@@ -58,5 +58,389 @@ namespace Leak.Properties {
                 this["defaultText"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("CH#00  7.4KW_CCU_L")]
+        public string CH00 {
+            get {
+                return ((string)(this["CH00"]));
+            }
+            set {
+                this["CH00"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("CH#01  ELECTRONIC:3000W")]
+        public string CH01 {
+            get {
+                return ((string)(this["CH01"]));
+            }
+            set {
+                this["CH01"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("CH#02  COOLANT AREA:3000W")]
+        public string CH02 {
+            get {
+                return ((string)(this["CH02"]));
+            }
+            set {
+                this["CH02"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("CH#03  ELECTRONIC:7.4KW")]
+        public string CH03 {
+            get {
+                return ((string)(this["CH03"]));
+            }
+            set {
+                this["CH03"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("CH#04  COOLANT AREA:7.4KW")]
+        public string CH04 {
+            get {
+                return ((string)(this["CH04"]));
+            }
+            set {
+                this["CH04"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("CH#05  5DH_COOL")]
+        public string CH05 {
+            get {
+                return ((string)(this["CH05"]));
+            }
+            set {
+                this["CH05"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("CH#06  5DH_ELEC")]
+        public string CH06 {
+            get {
+                return ((string)(this["CH06"]));
+            }
+            set {
+                this["CH06"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("CH#07  PAG_PV")]
+        public string CH07 {
+            get {
+                return ((string)(this["CH07"]));
+            }
+            set {
+                this["CH07"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("CH#08  AUDI_PV")]
+        public string CH08 {
+            get {
+                return ((string)(this["CH08"]));
+            }
+            set {
+                this["CH08"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("CH#09  GEN2_ELEC")]
+        public string CH09 {
+            get {
+                return ((string)(this["CH09"]));
+            }
+            set {
+                this["CH09"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("CH#10  GEN2_COOL")]
+        public string CH10 {
+            get {
+                return ((string)(this["CH10"]));
+            }
+            set {
+                this["CH10"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("CH#11  GEN2_COOL_H74")]
+        public string CH11 {
+            get {
+                return ((string)(this["CH11"]));
+            }
+            set {
+                this["CH11"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("CH#12 BMW CCU-L")]
+        public string CH12 {
+            get {
+                return ((string)(this["CH12"]));
+            }
+            set {
+                this["CH12"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("CH#13  BMW CCU-S")]
+        public string CH13 {
+            get {
+                return ((string)(this["CH13"]));
+            }
+            set {
+                this["CH13"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("CH#14  REF.PL57/65")]
+        public string CH14 {
+            get {
+                return ((string)(this["CH14"]));
+            }
+            set {
+                this["CH14"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("CH#15  REF.PL73/1P")]
+        public string CH15 {
+            get {
+                return ((string)(this["CH15"]));
+            }
+            set {
+                this["CH15"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("CH#16  PL73-1P_K_11")]
+        public string CH16 {
+            get {
+                return ((string)(this["CH16"]));
+            }
+            set {
+                this["CH16"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("CH#17  PL57/95_K_11")]
+        public string CH17 {
+            get {
+                return ((string)(this["CH17"]));
+            }
+            set {
+                this["CH17"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("CH#18  PL73-1P_DES")]
+        public string CH18 {
+            get {
+                return ((string)(this["CH18"]));
+            }
+            set {
+                this["CH18"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("CH#19  PL57/65_DES")]
+        public string CH19 {
+            get {
+                return ((string)(this["CH19"]));
+            }
+            set {
+                this["CH19"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("CH#20  PL73-1P_DES2")]
+        public string CH20 {
+            get {
+                return ((string)(this["CH20"]));
+            }
+            set {
+                this["CH20"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("CH#21  PL57/65_DES2")]
+        public string CH21 {
+            get {
+                return ((string)(this["CH21"]));
+            }
+            set {
+                this["CH21"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("CH#22  NEW.PL57/65")]
+        public string CH22 {
+            get {
+                return ((string)(this["CH22"]));
+            }
+            set {
+                this["CH22"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("CH#23  NEW.PL73-1P")]
+        public string CH23 {
+            get {
+                return ((string)(this["CH23"]));
+            }
+            set {
+                this["CH23"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("CH#24  PV2017 PL57/65")]
+        public string CH24 {
+            get {
+                return ((string)(this["CH24"]));
+            }
+            set {
+                this["CH24"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("CH#25  PV2017 PL73-1P PAG")]
+        public string CH25 {
+            get {
+                return ((string)(this["CH25"]));
+            }
+            set {
+                this["CH25"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("CH#26  PV2017 PL57/65 NON")]
+        public string CH26 {
+            get {
+                return ((string)(this["CH26"]));
+            }
+            set {
+                this["CH26"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("CH#27  PV2017 PL73-1P NON")]
+        public string CH27 {
+            get {
+                return ((string)(this["CH27"]));
+            }
+            set {
+                this["CH27"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("CH#28  GEN4_11KW_ELEC")]
+        public string CH28 {
+            get {
+                return ((string)(this["CH28"]));
+            }
+            set {
+                this["CH28"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("CH#29  GEN4_11KW_COOLING")]
+        public string CH29 {
+            get {
+                return ((string)(this["CH29"]));
+            }
+            set {
+                this["CH29"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("CH#30  GEN4_3.7KW_ELEC")]
+        public string CH30 {
+            get {
+                return ((string)(this["CH30"]));
+            }
+            set {
+                this["CH30"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("CH#31  GEN4_3.7KW_COOLING")]
+        public string CH31 {
+            get {
+                return ((string)(this["CH31"]));
+            }
+            set {
+                this["CH31"] = value;
+            }
+        }
     }
 }
