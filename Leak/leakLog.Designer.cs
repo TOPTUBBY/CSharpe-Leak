@@ -36,7 +36,6 @@ namespace Leak
             this.tbLeak = new System.Windows.Forms.TextBox();
             this.tbDETUL = new System.Windows.Forms.TextBox();
             this.tbDETLL = new System.Windows.Forms.TextBox();
-            this.tbCompVal = new System.Windows.Forms.TextBox();
             this.tbPressure = new System.Windows.Forms.TextBox();
             this.tbTPUL = new System.Windows.Forms.TextBox();
             this.tbTPLL = new System.Windows.Forms.TextBox();
@@ -74,6 +73,13 @@ namespace Leak
             this.lblScrResult = new System.Windows.Forms.Label();
             this.lblCH = new System.Windows.Forms.Label();
             this.gbTestInfo = new System.Windows.Forms.GroupBox();
+            this.pbComplete = new System.Windows.Forms.PictureBox();
+            this.pbReport = new System.Windows.Forms.PictureBox();
+            this.pbStart = new System.Windows.Forms.PictureBox();
+            this.lblGuide3 = new System.Windows.Forms.Label();
+            this.lblGuide2 = new System.Windows.Forms.Label();
+            this.lblGuide1 = new System.Windows.Forms.Label();
+            this.lblGuide0 = new System.Windows.Forms.Label();
             this.tbTester = new System.Windows.Forms.TextBox();
             this.tbTestStep = new System.Windows.Forms.TextBox();
             this.lblProject = new System.Windows.Forms.Label();
@@ -109,6 +115,9 @@ namespace Leak
             ((System.ComponentModel.ISupportInitialize)(this.pbScrFail)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbScrPass)).BeginInit();
             this.gbTestInfo.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pbComplete)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbReport)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbStart)).BeginInit();
             this.ms.SuspendLayout();
             this.ss.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbDisConnect)).BeginInit();
@@ -193,22 +202,6 @@ namespace Leak
             this.tbDETLL.TabIndex = 0;
             this.tbDETLL.TabStop = false;
             this.tbDETLL.Text = "+000.000";
-            // 
-            // tbCompVal
-            // 
-            this.tbCompVal.BackColor = System.Drawing.Color.Black;
-            this.tbCompVal.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.tbCompVal.Cursor = System.Windows.Forms.Cursors.Default;
-            this.tbCompVal.Font = new System.Drawing.Font("Courier New", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbCompVal.ForeColor = System.Drawing.Color.White;
-            this.tbCompVal.Location = new System.Drawing.Point(247, 333);
-            this.tbCompVal.Name = "tbCompVal";
-            this.tbCompVal.ReadOnly = true;
-            this.tbCompVal.Size = new System.Drawing.Size(155, 37);
-            this.tbCompVal.TabIndex = 0;
-            this.tbCompVal.TabStop = false;
-            this.tbCompVal.Text = "+000.000";
-            this.tbCompVal.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // tbPressure
             // 
@@ -555,7 +548,7 @@ namespace Leak
             // pbNormScr
             // 
             this.pbNormScr.ErrorImage = global::Leak.Properties.Resources.gui_normal;
-            this.pbNormScr.Image = global::Leak.Properties.Resources.gui_normalv2;
+            this.pbNormScr.Image = global::Leak.Properties.Resources.gui_normalv3;
             this.pbNormScr.InitialImage = global::Leak.Properties.Resources.gui_normal;
             this.pbNormScr.Location = new System.Drawing.Point(22, 33);
             this.pbNormScr.Name = "pbNormScr";
@@ -578,7 +571,6 @@ namespace Leak
             this.gbCsmo.Controls.Add(this.tbTPUL);
             this.gbCsmo.Controls.Add(this.tbDETUL);
             this.gbCsmo.Controls.Add(this.tbDETLL);
-            this.gbCsmo.Controls.Add(this.tbCompVal);
             this.gbCsmo.Controls.Add(this.tbTPLL);
             this.gbCsmo.Controls.Add(this.tbK);
             this.gbCsmo.Controls.Add(this.tbPressure);
@@ -695,6 +687,12 @@ namespace Leak
             this.gbTestInfo.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
             this.gbTestInfo.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.gbTestInfo.Controls.Add(this.lblGuide3);
+            this.gbTestInfo.Controls.Add(this.pbComplete);
+            this.gbTestInfo.Controls.Add(this.lblGuide2);
+            this.gbTestInfo.Controls.Add(this.pbReport);
+            this.gbTestInfo.Controls.Add(this.pbStart);
+            this.gbTestInfo.Controls.Add(this.lblGuide0);
             this.gbTestInfo.Controls.Add(this.tbTester);
             this.gbTestInfo.Controls.Add(this.tbTestStep);
             this.gbTestInfo.Controls.Add(this.lblProject);
@@ -724,6 +722,7 @@ namespace Leak
             this.gbTestInfo.Controls.Add(this.lblDate);
             this.gbTestInfo.Controls.Add(this.tbSN);
             this.gbTestInfo.Controls.Add(this.tbID);
+            this.gbTestInfo.Controls.Add(this.lblGuide1);
             this.gbTestInfo.Enabled = false;
             this.gbTestInfo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
             this.gbTestInfo.Location = new System.Drawing.Point(892, 30);
@@ -732,6 +731,92 @@ namespace Leak
             this.gbTestInfo.TabIndex = 8;
             this.gbTestInfo.TabStop = false;
             this.gbTestInfo.Text = "TEST INFORMATION";
+            // 
+            // pbComplete
+            // 
+            this.pbComplete.ErrorImage = global::Leak.Properties.Resources.icons8_task_completed_64;
+            this.pbComplete.Image = global::Leak.Properties.Resources.icons8_task_completed_64;
+            this.pbComplete.InitialImage = global::Leak.Properties.Resources.icons8_task_completed_64;
+            this.pbComplete.Location = new System.Drawing.Point(96, 431);
+            this.pbComplete.Name = "pbComplete";
+            this.pbComplete.Size = new System.Drawing.Size(81, 82);
+            this.pbComplete.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbComplete.TabIndex = 10;
+            this.pbComplete.TabStop = false;
+            this.pbComplete.Visible = false;
+            // 
+            // pbReport
+            // 
+            this.pbReport.ErrorImage = global::Leak.Properties.Resources.icons8_signing_a_document_64;
+            this.pbReport.Image = global::Leak.Properties.Resources.icons8_signing_a_document_64;
+            this.pbReport.InitialImage = global::Leak.Properties.Resources.icons8_signing_a_document_64;
+            this.pbReport.Location = new System.Drawing.Point(13, 377);
+            this.pbReport.Name = "pbReport";
+            this.pbReport.Size = new System.Drawing.Size(44, 45);
+            this.pbReport.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbReport.TabIndex = 10;
+            this.pbReport.TabStop = false;
+            this.pbReport.Visible = false;
+            // 
+            // pbStart
+            // 
+            this.pbStart.ErrorImage = global::Leak.Properties.Resources.icons8_start_64;
+            this.pbStart.Image = global::Leak.Properties.Resources.icons8_start_64;
+            this.pbStart.InitialImage = global::Leak.Properties.Resources.icons8_start_64;
+            this.pbStart.Location = new System.Drawing.Point(68, 312);
+            this.pbStart.Name = "pbStart";
+            this.pbStart.Size = new System.Drawing.Size(59, 44);
+            this.pbStart.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbStart.TabIndex = 9;
+            this.pbStart.TabStop = false;
+            this.pbStart.Visible = false;
+            // 
+            // lblGuide3
+            // 
+            this.lblGuide3.AutoSize = true;
+            this.lblGuide3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.lblGuide3.ForeColor = System.Drawing.Color.Green;
+            this.lblGuide3.Location = new System.Drawing.Point(75, 516);
+            this.lblGuide3.Name = "lblGuide3";
+            this.lblGuide3.Size = new System.Drawing.Size(122, 24);
+            this.lblGuide3.TabIndex = 8;
+            this.lblGuide3.Text = "COMPLETE";
+            this.lblGuide3.Visible = false;
+            // 
+            // lblGuide2
+            // 
+            this.lblGuide2.AutoSize = true;
+            this.lblGuide2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.lblGuide2.ForeColor = System.Drawing.Color.Orange;
+            this.lblGuide2.Location = new System.Drawing.Point(60, 390);
+            this.lblGuide2.Name = "lblGuide2";
+            this.lblGuide2.Size = new System.Drawing.Size(200, 24);
+            this.lblGuide2.TabIndex = 8;
+            this.lblGuide2.Text = "Wait generating report.";
+            this.lblGuide2.Visible = false;
+            // 
+            // lblGuide1
+            // 
+            this.lblGuide1.AutoSize = true;
+            this.lblGuide1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.lblGuide1.ForeColor = System.Drawing.Color.Blue;
+            this.lblGuide1.Location = new System.Drawing.Point(14, 329);
+            this.lblGuide1.Name = "lblGuide1";
+            this.lblGuide1.Size = new System.Drawing.Size(250, 72);
+            this.lblGuide1.TabIndex = 8;
+            this.lblGuide1.Text = "Press             at the machine.\r\n        and wait Testing .....\r\n\r\n";
+            this.lblGuide1.Visible = false;
+            // 
+            // lblGuide0
+            // 
+            this.lblGuide0.AutoSize = true;
+            this.lblGuide0.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.lblGuide0.ForeColor = System.Drawing.Color.Blue;
+            this.lblGuide0.Location = new System.Drawing.Point(50, 262);
+            this.lblGuide0.Name = "lblGuide0";
+            this.lblGuide0.Size = new System.Drawing.Size(183, 16);
+            this.lblGuide0.TabIndex = 8;
+            this.lblGuide0.Text = "Type SN then press \'ENTER\'";
             // 
             // tbTester
             // 
@@ -1111,6 +1196,9 @@ namespace Leak
             ((System.ComponentModel.ISupportInitialize)(this.pbScrPass)).EndInit();
             this.gbTestInfo.ResumeLayout(false);
             this.gbTestInfo.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pbComplete)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbReport)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbStart)).EndInit();
             this.ms.ResumeLayout(false);
             this.ms.PerformLayout();
             this.ss.ResumeLayout(false);
@@ -1130,7 +1218,6 @@ namespace Leak
         public System.Windows.Forms.TextBox tbLeak;
         public System.Windows.Forms.TextBox tbDETUL;
         public System.Windows.Forms.TextBox tbDETLL;
-        public System.Windows.Forms.TextBox tbCompVal;
         public System.Windows.Forms.TextBox tbPressure;
         public System.Windows.Forms.TextBox tbTPUL;
         public System.Windows.Forms.TextBox tbTPLL;
@@ -1197,6 +1284,13 @@ namespace Leak
         public System.Windows.Forms.ToolStripMenuItem configPort;
         public System.Windows.Forms.ToolStripSeparator toolStripSeparator3;
         private System.Windows.Forms.ToolStripButton tsbFormat;
+        private System.Windows.Forms.Label lblGuide0;
+        private System.Windows.Forms.PictureBox pbStart;
+        private System.Windows.Forms.Label lblGuide1;
+        private System.Windows.Forms.Label lblGuide2;
+        private System.Windows.Forms.PictureBox pbReport;
+        private System.Windows.Forms.PictureBox pbComplete;
+        private System.Windows.Forms.Label lblGuide3;
     }
 }
 

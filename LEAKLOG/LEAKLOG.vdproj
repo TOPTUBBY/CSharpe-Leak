@@ -39,7 +39,19 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_310DEBB987D34358A3B8A11F05DC6B43"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_33FE273A86FF49F1B5BF3B5815489520"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_43D33312FC644E00A4A05A4F3ABC9D9E"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -69,12 +81,6 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_83E1D1C608944CDCB43060FFDF589E9B"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_8D8E15AEA05A482096C3E8E4340AF6F7"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -94,12 +100,6 @@
         "Entry"
         {
         "MsmKey" = "8:_DC8A1830816E4842BDE994739AC92AC1"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_E20F225C887849DE9F8C662BF9365FDC"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -284,6 +284,46 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_310DEBB987D34358A3B8A11F05DC6B43"
+            {
+            "SourcePath" = "8:..\\Leak\\ext_Resources\\7.4kW_CCU_S.xlsx"
+            "TargetName" = "8:7.4kW_CCU_S.xlsx"
+            "Tag" = "8:"
+            "Folder" = "8:_CC2D6BA6877A42C8814A5218C97394DC"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_43D33312FC644E00A4A05A4F3ABC9D9E"
+            {
+            "SourcePath" = "8:..\\Leak\\ext_Resources\\7.4kW_CCU_L.xlsx"
+            "TargetName" = "8:7.4kW_CCU_L.xlsx"
+            "Tag" = "8:"
+            "Folder" = "8:_CC2D6BA6877A42C8814A5218C97394DC"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_4B684C3727B842C08AA4FDC42B51E6D1"
             {
             "SourcePath" = "8:..\\Leak\\ext_Resources\\22kW_CCU_L.xlsx"
@@ -364,26 +404,6 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_83E1D1C608944CDCB43060FFDF589E9B"
-            {
-            "SourcePath" = "8:..\\Leak\\ext_Resources\\7.4kW_CCU_S.xlsx"
-            "TargetName" = "8:7.4kW_CCU_S.xlsx"
-            "Tag" = "8:"
-            "Folder" = "8:_CC2D6BA6877A42C8814A5218C97394DC"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_8D8E15AEA05A482096C3E8E4340AF6F7"
             {
             "SourcePath" = "8:..\\Leak\\ext_Resources\\ds_digital\\DS-DIGIT.TTF"
@@ -450,26 +470,6 @@
             "TargetName" = "8:icons8_tornado.ico"
             "Tag" = "8:"
             "Folder" = "8:_81D9E01659B44872B0C0322D4D8232AA"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_E20F225C887849DE9F8C662BF9365FDC"
-            {
-            "SourcePath" = "8:..\\Leak\\ext_Resources\\7.4kW_CCU_L.xlsx"
-            "TargetName" = "8:7.4kW_CCU_L.xlsx"
-            "Tag" = "8:"
-            "Folder" = "8:_CC2D6BA6877A42C8814A5218C97394DC"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -584,19 +584,19 @@
         {
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:LEAKLOG"
-        "ProductCode" = "8:{3B4EE7A6-8982-4CF1-9CBD-0FDAE9372EAC}"
-        "PackageCode" = "8:{DF72374A-0B93-4B5A-AB6F-1DC62FB98100}"
+        "ProductCode" = "8:{9C925484-EF30-4A13-83AB-CC2DD5EDE557}"
+        "PackageCode" = "8:{7E7A2FB6-2330-4D4F-AE08-F8F1B8C060FA}"
         "UpgradeCode" = "8:{9D5794B7-C01A-4715-8F02-5A2B59D848D9}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:TRUE"
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:FALSE"
-        "ProductVersion" = "8:1.3.6"
+        "ProductVersion" = "8:1.7.5"
         "Manufacturer" = "8:Delta Electronics (Thailand) Public Co.,Ltd"
         "ARPHELPTELEPHONE" = "8:ext.6787"
         "ARPHELPLINK" = "8:"
-        "Title" = "8:LEAKLOG 1.5.2"
+        "Title" = "8:LEAKLOG 1.7.5"
         "Subject" = "8:Automotive Software DET5"
         "ARPCONTACT" = "8:Patiphan Phakdeeburi"
         "Keywords" = "8:Leak"

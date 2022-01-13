@@ -117,158 +117,176 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="gui_normalv2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\gui_normalv2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Code0200" xml:space="preserve">
-    <value>Error: 2 PS Output Out of Range</value>
-  </data>
-  <data name="Result2" xml:space="preserve">
-    <value>PASS</value>
-  </data>
-  <data name="icons8_screenshot_48" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icons8_screenshot_48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="pe1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\pe1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Result9" xml:space="preserve">
-    <value>LL2 FAIL</value>
-  </data>
-  <data name="Code0000" xml:space="preserve">
-    <value>PASS</value>
-  </data>
-  <data name="icons8_shutdown_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icons8_shutdown_32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="icons8_full_stop_48" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icons8_full_stop_48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="icons8_internet_of_things_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icons8_internet_of_things_32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Mode02" xml:space="preserve">
-    <value>K(Ve) check</value>
-  </data>
-  <data name="Code0020" xml:space="preserve">
-    <value>Error: 1 PS Offset Error</value>
-  </data>
-  <data name="icons8_delete_48" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icons8_delete_48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="ResultC" xml:space="preserve">
-    <value>UL2 FAIL</value>
-  </data>
   <data name="Mode00" xml:space="preserve">
     <value>Leak test</value>
   </data>
-  <data name="Unitag_QRCode_1633567236824" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\qr\outlook\Unitag_QRCode_1633567236824.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="icons8_question_mark_48" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icons8_question_mark_48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="gui_passv2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\gui_passv2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="icons8_close_window_dark_64" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icons8_close_window_dark_64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Unitag_QRCode_1633566970790" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\qr\line\Unitag_QRCode_1633566970790.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="icons8_conflict_48" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icons8_conflict_48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Result4" xml:space="preserve">
-    <value>UL FAIL</value>
-  </data>
-  <data name="icons8_close_window_64" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icons8_close_window_64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="ResultD" xml:space="preserve">
-    <value>Error</value>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="icons8_about_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8_about_32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Code0800" xml:space="preserve">
     <value>K(Ve) Check NG</value>
   </data>
-  <data name="Unitag_QRCode_1633567566589" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\qr\user\Unitag_QRCode_1633567566589.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Code0080" xml:space="preserve">
-    <value>Error: 3 Test Pressure Error</value>
-  </data>
-  <data name="icons8_conflict_64" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icons8_conflict_64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="icons8_about_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icons8_about_32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Code0000" xml:space="preserve">
+    <value>PASS</value>
   </data>
   <data name="icons8_disconnected_48" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icons8_disconnected_48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="gui_fail" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\gui_fail.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Mode01" xml:space="preserve">
-    <value>Mastering</value>
+  <data name="icons8_close_window_64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8_close_window_64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="icons8_project_management_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icons8_project_management_32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="icons8_project_management_48" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icons8_project_management_48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="delta" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\delta.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="icons8_connected_48" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icons8_connected_48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="gui_failv2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\gui_failv2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Mode03" xml:space="preserve">
-    <value>NR</value>
-  </data>
-  <data name="Result1" xml:space="preserve">
-    <value>LL FAIL</value>
-  </data>
-  <data name="icons8_tick_box_64" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icons8_tick_box_64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="icons8_shutdown_48" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icons8_shutdown_48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="icons8_checkmark_48" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icons8_checkmark_48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="icons8_tick_box_dark_64" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icons8_tick_box_dark_64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Code0400" xml:space="preserve">
-    <value>Error: 24 K(Ve) Value Out of Range</value>
-  </data>
-  <data name="icons8_timetable_64" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icons8_timetable_64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="gui_normal" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\gui_normal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="ResultC" xml:space="preserve">
+    <value>UL2 FAIL</value>
   </data>
   <data name="Code4000" xml:space="preserve">
     <value>Error: 11 to 16 Air Operated Value Error</value>
   </data>
+  <data name="gui_fail" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gui_fail.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8_connected_48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8_connected_48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8_full_stop_48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8_full_stop_48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gui_normalv2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gui_normalv2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8_tick_box_64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8_tick_box_64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Result4" xml:space="preserve">
+    <value>UL FAIL</value>
+  </data>
   <data name="icons8_open_folder_in_new_tab_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icons8_open_folder_in_new_tab_32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="gui_pass" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\gui_pass.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="icons8_internet_of_things_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8_internet_of_things_32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="leak" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\leak.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gui_normalv3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gui_normalv3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8_delete_48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8_delete_48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Code0100" xml:space="preserve">
     <value>Large Leak</value>
   </data>
-  <data name="leak" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\leak.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Mode01" xml:space="preserve">
+    <value>Mastering</value>
+  </data>
+  <data name="gui_pass" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gui_pass.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gui_normal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gui_normal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8_signing_a_document_64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8_signing_a_document_64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="delta" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\delta.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8_project_management_48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8_project_management_48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8_timetable_64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8_timetable_64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8_tick_box_dark_64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8_tick_box_dark_64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Code0200" xml:space="preserve">
+    <value>Error: 2 PS Output Out of Range</value>
+  </data>
+  <data name="Code0020" xml:space="preserve">
+    <value>Error: 1 PS Offset Error</value>
+  </data>
+  <data name="icons8_screenshot_48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8_screenshot_48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Result1" xml:space="preserve">
+    <value>LL FAIL</value>
+  </data>
+  <data name="ResultD" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="icons8_conflict_64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8_conflict_64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Result2" xml:space="preserve">
+    <value>PASS</value>
+  </data>
+  <data name="Unitag_QRCode_1633567236824" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qr\outlook\Unitag_QRCode_1633567236824.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8_checkmark_48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8_checkmark_48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gui_failv2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gui_failv2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8_question_mark_48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8_question_mark_48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mode03" xml:space="preserve">
+    <value>NR</value>
+  </data>
+  <data name="gui_failv3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gui_failv3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gui_passv2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gui_passv2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Unitag_QRCode_1633566970790" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qr\line\Unitag_QRCode_1633566970790.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Result9" xml:space="preserve">
+    <value>LL2 FAIL</value>
+  </data>
+  <data name="icons8_start_64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8_start_64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8_shutdown_48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8_shutdown_48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Code0080" xml:space="preserve">
+    <value>Error: 3 Test Pressure Error</value>
+  </data>
+  <data name="Code0400" xml:space="preserve">
+    <value>Error: 24 K(Ve) Value Out of Range</value>
+  </data>
+  <data name="gui_passv3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gui_passv3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8_conflict_48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8_conflict_48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8_close_window_dark_64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8_close_window_dark_64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pe1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pe1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mode02" xml:space="preserve">
+    <value>K(Ve) check</value>
+  </data>
+  <data name="Unitag_QRCode_1633567566589" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qr\user\Unitag_QRCode_1633567566589.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8_shutdown_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8_shutdown_32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8_task_completed_64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8_task_completed_64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

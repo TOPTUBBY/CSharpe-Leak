@@ -3,7 +3,7 @@
 //FileType: Visual C# Source file
 //Author : TOPTUBBY (AnonymouS)
 //Created On : 7/10/2021 12:00:00 PM
-//Last Modified On : 6/01/2022 14:19:00 PM
+//Last Modified On : 13/01/2022 13:00:00 PM
 //Copy Rights : Delta Electronics Thailand PCL.
 //Description : Class for defining database related functions
 ////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -231,7 +231,7 @@ namespace Leak
                     case "1":
                         tbResult.Text = Properties.Resources.Result1;
                         pbScrFail.Image = new Bitmap(Properties.Resources.icons8_close_window_64);
-                        pbNormScr.Image = new Bitmap(Leak.Properties.Resources.gui_failv2);
+                        pbNormScr.Image = new Bitmap(Leak.Properties.Resources.gui_failv3);
                         lblScrResult.Text = Properties.Resources.Result1;
                         lblScrResult.BackColor = Color.Red;
                         lblScrResult.ForeColor = Color.White;
@@ -239,14 +239,14 @@ namespace Leak
                     case "2":
                         pbScrPass.Image = new Bitmap(Properties.Resources.icons8_tick_box_64);
                         tbResult.Text = Properties.Resources.Result2;
-                        pbNormScr.Image = new Bitmap(Leak.Properties.Resources.gui_passv2);
+                        pbNormScr.Image = new Bitmap(Leak.Properties.Resources.gui_passv3);
                         lblScrResult.Text = "Pass";
                         lblScrResult.BackColor = Color.Lime;
                         break;
                     case "4":
                         tbResult.Text = Properties.Resources.Result4;
                         pbScrFail.Image = new Bitmap(Properties.Resources.icons8_close_window_64);
-                        pbNormScr.Image = new Bitmap(Leak.Properties.Resources.gui_failv2);
+                        pbNormScr.Image = new Bitmap(Leak.Properties.Resources.gui_failv3);
                         lblScrResult.Text = Properties.Resources.Result4;
                         lblScrResult.BackColor = Color.Red;
                         lblScrResult.ForeColor = Color.White;
@@ -254,7 +254,7 @@ namespace Leak
                     case "9":
                         tbResult.Text = Properties.Resources.Result9;
                         pbScrFail.Image = new Bitmap(Properties.Resources.icons8_close_window_64);
-                        pbNormScr.Image = new Bitmap(Leak.Properties.Resources.gui_failv2);
+                        pbNormScr.Image = new Bitmap(Leak.Properties.Resources.gui_failv3);
                         lblScrResult.Text = Properties.Resources.Result9;
                         lblScrResult.BackColor = Color.Red;
                         lblScrResult.ForeColor = Color.White;
@@ -262,7 +262,7 @@ namespace Leak
                     case "C":
                         tbResult.Text = Properties.Resources.ResultC;
                         pbScrFail.Image = new Bitmap(Properties.Resources.icons8_close_window_64);
-                        pbNormScr.Image = new Bitmap(Leak.Properties.Resources.gui_failv2);
+                        pbNormScr.Image = new Bitmap(Leak.Properties.Resources.gui_failv3);
                         lblScrResult.Text = Properties.Resources.ResultC;
                         lblScrResult.BackColor = Color.Red;
                         lblScrResult.ForeColor = Color.White;
@@ -270,7 +270,7 @@ namespace Leak
                     case "D":
                         tbResult.Text = Properties.Resources.ResultD;
                         pbScrFail.Image = new Bitmap(Properties.Resources.icons8_close_window_64);
-                        pbNormScr.Image = new Bitmap(Leak.Properties.Resources.gui_failv2);
+                        pbNormScr.Image = new Bitmap(Leak.Properties.Resources.gui_failv3);
                         lblScrResult.Text = Properties.Resources.ResultD;
                         lblScrResult.BackColor = Color.Red;
                         lblScrResult.ForeColor = Color.White;
@@ -279,7 +279,7 @@ namespace Leak
                 tbLeak.Text = valueSplit[3];                    //Leak
                 tbDETUL.Text = valueSplit[4];                   //DET UL
                 tbDETLL.Text = valueSplit[5];                   //DET LL
-                tbCompVal.Text = valueSplit[6];                 //Comp value    
+                //tbCompVal.Text = valueSplit[6];                 //Comp value    
                 tbPressure.Text = valueSplit[7];                //Pressure
                 tbTPUL.Text = valueSplit[8];                    //TP UL
                 tbTPLL.Text = valueSplit[9];                    //TP LL
@@ -432,7 +432,11 @@ namespace Leak
                 {
 
                 }
+                lblGuide1.Visible = false;
+                pbStart.Visible = false;
                 MessageBox.Show("Capture", "LEAKAGE LOGGING", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                pbReport.Visible = true;
+                lblGuide2.Visible = true;
                 Thread.Sleep(1000);
                 capture();
 
@@ -452,10 +456,10 @@ namespace Leak
                     workSheet.Cells[8, 10].Value = tbTestStep.Text;                             //Test step
                     workSheet.Cells[7, 37].Value = tbTester.Text;                               //Tester name
                     workSheet.Cells[8, 37].Value = System.DateTime.Now.ToString("MM-dd-yyyy");  //Test date
-                    workSheet.Cells[13, 33].Value = Properties.Settings.Default.csmoDueDate;
+                    //workSheet.Cells[13, 33].Value = Properties.Settings.Default.csmoDueDate;
                     workSheet.Cells[35, 8].Value = lblScrCH.Text;                               //Channel
                     workSheet.Cells[39, 2].Value = "'" + tbScrSN.Text;                          //SN
-                    workSheet.Shapes.AddPicture(@"D:\LEAK_DATA\" + picfileName + ".jpeg", Microsoft.Office.Core.MsoTriState.msoFalse, Microsoft.Office.Core.MsoTriState.msoCTrue, 70, 596, 155, 147);
+                    workSheet.Shapes.AddPicture(@"D:\LEAK_DATA\" + picfileName + ".jpeg", Microsoft.Office.Core.MsoTriState.msoFalse, Microsoft.Office.Core.MsoTriState.msoCTrue, 50, 596, 155, 147);
                     workBook.Close(true, Type.Missing, Type.Missing);
                     app.Quit();
                 }
@@ -463,7 +467,11 @@ namespace Leak
                 {
                     MessageBox.Show(e.Message);
                 }
-
+                lblGuide2.Visible = false;
+                pbReport.Visible = false;
+                lblGuide3.Visible = true;
+                pbComplete.Visible = true;
+                tsslblErrorCode.Text = "Report generate done";
                 MessageBox.Show("Report has been created.", "LEAKAGE LOGGING", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
         }
@@ -485,6 +493,9 @@ namespace Leak
                 if (e.KeyCode == Keys.Enter)
                 {
                     tbSN.BackColor = Color.GreenYellow;
+                    lblGuide0.Visible = false;
+                    lblGuide1.Visible = true;
+                    pbStart.Visible = true;
                 }
             }
             catch
@@ -496,15 +507,18 @@ namespace Leak
         //Clear all
         private void btnClear_Click(object sender, EventArgs e)
         {
+            lblGuide3.Visible = false;
+            pbComplete.Visible = false;
+            lblGuide0.Visible = true;
             rtbIncoming.Clear();
-            pbNormScr.Image = new Bitmap(Properties.Resources.gui_normalv2);
+            pbNormScr.Image = new Bitmap(Properties.Resources.gui_normalv3);
             lblScrResult.Text = "";
             lblScrResult.BackColor = Color.Transparent;
             lblScrResult.ForeColor = Color.Black;
             tbScrSN.Text = "";
             pbScrPass.Image = new Bitmap(Properties.Resources.icons8_tick_box_dark_64);
             pbScrFail.Image = new Bitmap(Properties.Resources.icons8_close_window_dark_64);
-            tbSN.Text = "";
+            //tbSN.Text = "";
             tbSN.BackColor = Color.White;
             tbID.Text = Properties.Settings.Default.defaultText;
             tbMeasMode.Text = Properties.Settings.Default.defaultText;

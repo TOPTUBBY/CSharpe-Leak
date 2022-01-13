@@ -165,6 +165,16 @@ namespace Leak.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap gui_failv3 {
+            get {
+                object obj = ResourceManager.GetObject("gui_failv3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap gui_normal {
             get {
                 object obj = ResourceManager.GetObject("gui_normal", resourceCulture);
@@ -185,6 +195,16 @@ namespace Leak.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap gui_normalv3 {
+            get {
+                object obj = ResourceManager.GetObject("gui_normalv3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap gui_pass {
             get {
                 object obj = ResourceManager.GetObject("gui_pass", resourceCulture);
@@ -198,6 +218,16 @@ namespace Leak.Properties {
         internal static System.Drawing.Bitmap gui_passv2 {
             get {
                 object obj = ResourceManager.GetObject("gui_passv2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap gui_passv3 {
+            get {
+                object obj = ResourceManager.GetObject("gui_passv3", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -378,6 +408,36 @@ namespace Leak.Properties {
         internal static System.Drawing.Bitmap icons8_shutdown_48 {
             get {
                 object obj = ResourceManager.GetObject("icons8_shutdown_48", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_signing_a_document_64 {
+            get {
+                object obj = ResourceManager.GetObject("icons8_signing_a_document_64", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_start_64 {
+            get {
+                object obj = ResourceManager.GetObject("icons8_start_64", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_task_completed_64 {
+            get {
+                object obj = ResourceManager.GetObject("icons8_task_completed_64", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
