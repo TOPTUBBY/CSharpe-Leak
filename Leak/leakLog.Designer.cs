@@ -73,12 +73,11 @@ namespace Leak
             this.lblScrResult = new System.Windows.Forms.Label();
             this.lblCH = new System.Windows.Forms.Label();
             this.gbTestInfo = new System.Windows.Forms.GroupBox();
+            this.lblGuide3 = new System.Windows.Forms.Label();
             this.pbComplete = new System.Windows.Forms.PictureBox();
+            this.lblGuide2 = new System.Windows.Forms.Label();
             this.pbReport = new System.Windows.Forms.PictureBox();
             this.pbStart = new System.Windows.Forms.PictureBox();
-            this.lblGuide3 = new System.Windows.Forms.Label();
-            this.lblGuide2 = new System.Windows.Forms.Label();
-            this.lblGuide1 = new System.Windows.Forms.Label();
             this.lblGuide0 = new System.Windows.Forms.Label();
             this.tbTester = new System.Windows.Forms.TextBox();
             this.tbTestStep = new System.Windows.Forms.TextBox();
@@ -93,6 +92,7 @@ namespace Leak
             this.lblSN = new System.Windows.Forms.Label();
             this.btnClear = new System.Windows.Forms.Button();
             this.tbSN = new System.Windows.Forms.TextBox();
+            this.lblGuide1 = new System.Windows.Forms.Label();
             this.ms = new System.Windows.Forms.MenuStrip();
             this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.fileOpen = new System.Windows.Forms.ToolStripMenuItem();
@@ -732,6 +732,18 @@ namespace Leak
             this.gbTestInfo.TabStop = false;
             this.gbTestInfo.Text = "TEST INFORMATION";
             // 
+            // lblGuide3
+            // 
+            this.lblGuide3.AutoSize = true;
+            this.lblGuide3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.lblGuide3.ForeColor = System.Drawing.Color.Green;
+            this.lblGuide3.Location = new System.Drawing.Point(75, 516);
+            this.lblGuide3.Name = "lblGuide3";
+            this.lblGuide3.Size = new System.Drawing.Size(122, 24);
+            this.lblGuide3.TabIndex = 8;
+            this.lblGuide3.Text = "COMPLETE";
+            this.lblGuide3.Visible = false;
+            // 
             // pbComplete
             // 
             this.pbComplete.ErrorImage = global::Leak.Properties.Resources.icons8_task_completed_64;
@@ -744,6 +756,18 @@ namespace Leak
             this.pbComplete.TabIndex = 10;
             this.pbComplete.TabStop = false;
             this.pbComplete.Visible = false;
+            // 
+            // lblGuide2
+            // 
+            this.lblGuide2.AutoSize = true;
+            this.lblGuide2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.lblGuide2.ForeColor = System.Drawing.Color.Orange;
+            this.lblGuide2.Location = new System.Drawing.Point(60, 390);
+            this.lblGuide2.Name = "lblGuide2";
+            this.lblGuide2.Size = new System.Drawing.Size(200, 24);
+            this.lblGuide2.TabIndex = 8;
+            this.lblGuide2.Text = "Wait generating report.";
+            this.lblGuide2.Visible = false;
             // 
             // pbReport
             // 
@@ -771,42 +795,6 @@ namespace Leak
             this.pbStart.TabStop = false;
             this.pbStart.Visible = false;
             // 
-            // lblGuide3
-            // 
-            this.lblGuide3.AutoSize = true;
-            this.lblGuide3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-            this.lblGuide3.ForeColor = System.Drawing.Color.Green;
-            this.lblGuide3.Location = new System.Drawing.Point(75, 516);
-            this.lblGuide3.Name = "lblGuide3";
-            this.lblGuide3.Size = new System.Drawing.Size(122, 24);
-            this.lblGuide3.TabIndex = 8;
-            this.lblGuide3.Text = "COMPLETE";
-            this.lblGuide3.Visible = false;
-            // 
-            // lblGuide2
-            // 
-            this.lblGuide2.AutoSize = true;
-            this.lblGuide2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-            this.lblGuide2.ForeColor = System.Drawing.Color.Orange;
-            this.lblGuide2.Location = new System.Drawing.Point(60, 390);
-            this.lblGuide2.Name = "lblGuide2";
-            this.lblGuide2.Size = new System.Drawing.Size(200, 24);
-            this.lblGuide2.TabIndex = 8;
-            this.lblGuide2.Text = "Wait generating report.";
-            this.lblGuide2.Visible = false;
-            // 
-            // lblGuide1
-            // 
-            this.lblGuide1.AutoSize = true;
-            this.lblGuide1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-            this.lblGuide1.ForeColor = System.Drawing.Color.Blue;
-            this.lblGuide1.Location = new System.Drawing.Point(14, 329);
-            this.lblGuide1.Name = "lblGuide1";
-            this.lblGuide1.Size = new System.Drawing.Size(250, 72);
-            this.lblGuide1.TabIndex = 8;
-            this.lblGuide1.Text = "Press             at the machine.\r\n        and wait Testing .....\r\n\r\n";
-            this.lblGuide1.Visible = false;
-            // 
             // lblGuide0
             // 
             this.lblGuide0.AutoSize = true;
@@ -822,13 +810,13 @@ namespace Leak
             // 
             this.tbTester.AutoCompleteCustomSource.AddRange(new string[] {
             "Chotiwat",
-            "Jaray.P",
-            "Natrunooch.Siri",
-            "Nattaphol.Nijc",
-            "Kitsalanun.Kits",
-            "Mutita.Khwa",
-            "Patiphan.Phak",
-            "Atit.Fayh"});
+            "Jaray",
+            "Natrunooch",
+            "Nattaphol",
+            "Kitsalanun",
+            "Mutita",
+            "Patiphan",
+            "Atit"});
             this.tbTester.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
             this.tbTester.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.CustomSource;
             this.tbTester.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
@@ -836,7 +824,7 @@ namespace Leak
             this.tbTester.Name = "tbTester";
             this.tbTester.Size = new System.Drawing.Size(158, 26);
             this.tbTester.TabIndex = 5;
-            this.tbTester.Text = "Patiphan.Phak";
+            this.tbTester.Text = "Patiphan";
             this.tbTester.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // tbTestStep
@@ -845,8 +833,13 @@ namespace Leak
             "Pre-test",
             "Initial",
             "Before",
+            "Before K01",
+            "Before K02",
             "After",
-            "Final"});
+            "After K01",
+            "After K02",
+            "Final",
+            "Final Measurement"});
             this.tbTestStep.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
             this.tbTestStep.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.CustomSource;
             this.tbTestStep.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
@@ -944,8 +937,14 @@ namespace Leak
             this.cbbSampleType.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
             this.cbbSampleType.FormattingEnabled = true;
             this.cbbSampleType.Items.AddRange(new object[] {
+            "Pre-DV",
             "DV",
-            "PV"});
+            "PV",
+            "PV0",
+            "PV1",
+            "PV2",
+            "PV-1S",
+            "PV-1M"});
             this.cbbSampleType.Location = new System.Drawing.Point(139, 102);
             this.cbbSampleType.Name = "cbbSampleType";
             this.cbbSampleType.Size = new System.Drawing.Size(115, 28);
@@ -998,6 +997,18 @@ namespace Leak
             this.tbSN.Text = "22000000181228XXXX";
             this.tbSN.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.tbSN.KeyDown += new System.Windows.Forms.KeyEventHandler(this.tbSN_KeyDown);
+            // 
+            // lblGuide1
+            // 
+            this.lblGuide1.AutoSize = true;
+            this.lblGuide1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.lblGuide1.ForeColor = System.Drawing.Color.Blue;
+            this.lblGuide1.Location = new System.Drawing.Point(14, 329);
+            this.lblGuide1.Name = "lblGuide1";
+            this.lblGuide1.Size = new System.Drawing.Size(250, 72);
+            this.lblGuide1.TabIndex = 8;
+            this.lblGuide1.Text = "Press             at the machine.\r\n        and wait Testing .....\r\n\r\n";
+            this.lblGuide1.Visible = false;
             // 
             // ms
             // 

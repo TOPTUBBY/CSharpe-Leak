@@ -510,6 +510,8 @@ namespace Leak
             lblGuide3.Visible = false;
             pbComplete.Visible = false;
             lblGuide0.Visible = true;
+            lblGuide1.Visible = false;
+            pbStart.Visible = false;
             rtbIncoming.Clear();
             pbNormScr.Image = new Bitmap(Properties.Resources.gui_normalv3);
             lblScrResult.Text = "";
