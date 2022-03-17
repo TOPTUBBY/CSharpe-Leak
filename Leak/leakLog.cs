@@ -22,7 +22,7 @@ namespace Leak
 {
     public partial class leak : Form
     {
-        IniFile ini = new IniFile(@"C:\Program Files (x86)\Delta Electronics (Thailand) Public Co.,Ltd\LEAKLOG\database\config.ini");
+        IniFile ini = new IniFile(@"D:\Automotive_Software_DET5\LEAKLOG\database\config.ini");
         internal delegate void SerialDataReceivedEventHandlerDelegate(object sender, SerialDataReceivedEventArgs e);
         delegate void SetTextCallback(string text);
         string InputData = string.Empty;
@@ -91,12 +91,12 @@ namespace Leak
 
         private void configPort_Click(object sender, EventArgs e)
         {
-            System.Diagnostics.Process.Start(@"C:\Program Files (x86)\Delta Electronics (Thailand) Public Co.,Ltd\LEAKLOG\database\config.ini");
+            System.Diagnostics.Process.Start(@"D:\Automotive_Software_DET5\LEAKLOG\database\config.ini");
         }
 
         private void configFormat_Click(object sender, EventArgs e)
         {
-            System.Diagnostics.Process.Start(@"C:\Program Files (x86)\Delta Electronics (Thailand) Public Co.,Ltd\LEAKLOG\format");
+            System.Diagnostics.Process.Start(@"D:\Automotive_Software_DET5\LEAKLOG\format");
         }
 
         private void helpSpec_Click(object sender, EventArgs e)
@@ -175,7 +175,7 @@ namespace Leak
 
         private void tsbFormat_Click(object sender, EventArgs e)
         {
-            System.Diagnostics.Process.Start(@"C:\Program Files (x86)\Delta Electronics (Thailand) Public Co.,Ltd\LEAKLOG\format");
+            System.Diagnostics.Process.Start(@"D:\Automotive_Software_DET5\LEAKLOG\format");
         }
 
         private void tsbExit_Click(object sender, EventArgs e)
@@ -444,7 +444,7 @@ namespace Leak
                 try
                 {
                     reportfileName = "LEAK_" + cbbProject.SelectedItem + "_" + tbSN.Text;
-                    string formatPath = @"C:\Program Files (x86)\Delta Electronics (Thailand) Public Co.,Ltd\LEAKLOG\format\" + cbbProject.SelectedItem + ".xlsx";
+                    string formatPath = @"D:\Automotive_Software_DET5\LEAKLOG\format\" + cbbProject.SelectedItem + ".xlsx";
                     string dataPath = @"D:\LEAK_DATA\" + reportfileName + ".xlsx";
                     if (!File.Exists(dataPath))
                     {
