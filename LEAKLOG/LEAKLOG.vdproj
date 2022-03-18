@@ -175,6 +175,14 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+            }
         }
         "Release"
         {
@@ -191,6 +199,14 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+            }
         }
     }
     "Deployable"
@@ -827,15 +843,15 @@
         {
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:LEAKLOG"
-        "ProductCode" = "8:{2FD6A02C-61B6-4A02-8DC5-98AE398D9504}"
-        "PackageCode" = "8:{D1062F6C-87BA-43D1-945E-F3A50521A931}"
+        "ProductCode" = "8:{8DCA7D62-B0BC-4E86-9382-EDEE746C3C5E}"
+        "PackageCode" = "8:{2A56A0E4-0B3B-4DEF-BDCB-14B6A59CDC14}"
         "UpgradeCode" = "8:{952F6A0B-DAB7-4E3D-BBD7-0CE0C1EA19DA}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:TRUE"
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:FALSE"
-        "ProductVersion" = "8:1.8.2"
+        "ProductVersion" = "8:1.8.5"
         "Manufacturer" = "8:Delta Electronics (Thailand) Public Co.,Ltd"
         "ARPHELPTELEPHONE" = "8:ext.6787"
         "ARPHELPLINK" = "8:"

@@ -101,7 +101,24 @@ namespace Leak
 
         private void helpSpec_Click(object sender, EventArgs e)
         {
+            MessageBox.Show("Under preparing process.", "Sorry", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+        }
 
+        private void helpEqMan_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start(@"D:\Automotive_Software_DET5\LEAKLOG\manual\LS-R700-941B1-G-EMan-150722.pdf");
+        }
+
+        private void helpLeakMan_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                System.Diagnostics.Process.Start(@"D:\Automotive_Software_DET5\LEAKLOG\manual\LEAKLOG_Manual.pdf");
+            }
+            catch
+            {
+                MessageBox.Show("Under preparing process.", "Sorry", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
         }
 
         private void helpInfo_Click(object sender, EventArgs e)

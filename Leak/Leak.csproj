@@ -117,6 +117,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="icons8_tornado.ico" />
+    <None Include="Resources\icons8_work_instructions_32.png" />
+    <None Include="Resources\icons8_user_manual_32.png" />
     <None Include="Resources\icons8_task_completed_64.png" />
     <None Include="Resources\icons8_signing_a_document_64.png" />
     <None Include="Resources\icons8_start_64.png" />

@@ -102,6 +102,8 @@ namespace Leak
             this.configFormat = new System.Windows.Forms.ToolStripMenuItem();
             this.helpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.helpSpec = new System.Windows.Forms.ToolStripMenuItem();
+            this.helpEqMan = new System.Windows.Forms.ToolStripMenuItem();
+            this.helpLeakMan = new System.Windows.Forms.ToolStripMenuItem();
             this.helpInfo = new System.Windows.Forms.ToolStripMenuItem();
             this.ss = new System.Windows.Forms.StatusStrip();
             this.tsslblErrorCode = new System.Windows.Forms.ToolStripStatusLabel();
@@ -830,6 +832,7 @@ namespace Leak
             // tbTestStep
             // 
             this.tbTestStep.AutoCompleteCustomSource.AddRange(new string[] {
+            "Commissioning",
             "Pre-test",
             "Initial",
             "Before",
@@ -944,7 +947,8 @@ namespace Leak
             "PV1",
             "PV2",
             "PV-1S",
-            "PV-1M"});
+            "PV-1M",
+            "VE"});
             this.cbbSampleType.Location = new System.Drawing.Point(139, 102);
             this.cbbSampleType.Name = "cbbSampleType";
             this.cbbSampleType.Size = new System.Drawing.Size(115, 28);
@@ -977,12 +981,51 @@ namespace Leak
             // tbSN
             // 
             this.tbSN.AutoCompleteCustomSource.AddRange(new string[] {
-            "220000001812280001",
-            "220010002108260001",
-            "220050002108160001",
-            "220000002107260001",
-            "DES202012080061900001",
-            "292A01977RTA10780001"});
+            "220000002110040000",
+            "220000002110110000",
+            "220000002109080000",
+            "220000002110190000",
+            "220000002111110000",
+            "220000002111240000",
+            "220000002105140000",
+            "220000002110060000",
+            "220000002107080000",
+            "220000002108120000",
+            "220000002109290000",
+            "220000002110130000",
+            "220000002110150000",
+            "220000002006220000",
+            "220000002011200000",
+            "220000002010200000",
+            "DES202012080061900046",
+            "DES202012150061900055",
+            "DES202012150061900056",
+            "DES202012150061900059",
+            "DES202012080061900041",
+            "DES202012080061900042",
+            "DES202012080061900043",
+            "DES202012080061900045",
+            "DES202012080061900048",
+            "DES202012150061900061",
+            "22000000211200000",
+            "220000002010190000",
+            "220000002201310000",
+            "220010002109140000",
+            "220010002109170000",
+            "220010002108280000",
+            "220010002108260000",
+            "220050002108160000",
+            "220050002108260000",
+            "220050002108280000",
+            "220050002109170000",
+            "220050002110010000",
+            "220000002010010000",
+            "220000002008310000",
+            "220000002011180000",
+            "220000002012060000",
+            "292A09609RTA12640005",
+            "292A09609RTA12640010",
+            "292A09609RTA12640014"});
             this.tbSN.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
             this.tbSN.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.CustomSource;
             this.tbSN.BackColor = System.Drawing.SystemColors.Window;
@@ -1087,6 +1130,8 @@ namespace Leak
             // 
             this.helpToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.helpSpec,
+            this.helpEqMan,
+            this.helpLeakMan,
             this.helpInfo});
             this.helpToolStripMenuItem.ForeColor = System.Drawing.SystemColors.ControlText;
             this.helpToolStripMenuItem.Name = "helpToolStripMenuItem";
@@ -1101,6 +1146,24 @@ namespace Leak
             this.helpSpec.Size = new System.Drawing.Size(241, 38);
             this.helpSpec.Text = "Specification";
             this.helpSpec.Click += new System.EventHandler(this.helpSpec_Click);
+            // 
+            // helpEqMan
+            // 
+            this.helpEqMan.Image = global::Leak.Properties.Resources.icons8_user_manual_32;
+            this.helpEqMan.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.helpEqMan.Name = "helpEqMan";
+            this.helpEqMan.Size = new System.Drawing.Size(241, 38);
+            this.helpEqMan.Text = "Equipment manual";
+            this.helpEqMan.Click += new System.EventHandler(this.helpEqMan_Click);
+            // 
+            // helpLeakMan
+            // 
+            this.helpLeakMan.Image = global::Leak.Properties.Resources.icons8_work_instructions_32;
+            this.helpLeakMan.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.helpLeakMan.Name = "helpLeakMan";
+            this.helpLeakMan.Size = new System.Drawing.Size(241, 38);
+            this.helpLeakMan.Text = "LEAKLOG manual";
+            this.helpLeakMan.Click += new System.EventHandler(this.helpLeakMan_Click);
             // 
             // helpInfo
             // 
@@ -1302,6 +1365,8 @@ namespace Leak
         private System.Windows.Forms.PictureBox pbReport;
         private System.Windows.Forms.PictureBox pbComplete;
         private System.Windows.Forms.Label lblGuide3;
+        private System.Windows.Forms.ToolStripMenuItem helpEqMan;
+        private System.Windows.Forms.ToolStripMenuItem helpLeakMan;
     }
 }
 
