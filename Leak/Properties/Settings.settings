@@ -90,7 +90,7 @@
       <Value Profile="(Default)">CH#25  PV2017 PL73-1P PAG</Value>
     </Setting>
     <Setting Name="CH26" Type="System.String" Scope="User">
-      <Value Profile="(Default)">CH#26  PV2017 PL57/65 NON</Value>
+      <Value Profile="(Default)">CH#26  PIPB TEST LEAKAGE</Value>
     </Setting>
     <Setting Name="CH27" Type="System.String" Scope="User">
       <Value Profile="(Default)">CH#27  PV2017 PL73-1P NON</Value>

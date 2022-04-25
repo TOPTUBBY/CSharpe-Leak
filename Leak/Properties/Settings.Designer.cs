@@ -373,7 +373,7 @@ namespace Leak.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("CH#26  PV2017 PL57/65 NON")]
+        [global::System.Configuration.DefaultSettingValueAttribute("CH#26  PIPB TEST LEAKAGE")]
         public string CH26 {
             get {
                 return ((string)(this["CH26"]));

@@ -915,6 +915,7 @@ namespace Leak
             "OBC_9.6kW",
             "OBC_11kW",
             "NIS_7.4kW",
+            "PIPB_11kW",
             "REN_5DH"});
             this.cbbProject.Location = new System.Drawing.Point(139, 33);
             this.cbbProject.Name = "cbbProject";
